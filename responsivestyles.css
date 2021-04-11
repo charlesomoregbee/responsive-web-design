@@ -36,7 +36,12 @@ div.nav-bar {
     width: 100vw;
     background: #304353;
 }
-
+@media screen and (max-width: 600px) {
+  .nav-bar a:not(:first-child) {display: none;}
+  .nav-bar a.icon {
+    float: right;
+    display: block;
+  }
 div.logo {
     font-size: 1.5rem;
     color: #bcc3c7;
